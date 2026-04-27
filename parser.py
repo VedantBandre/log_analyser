@@ -139,7 +139,7 @@ def _detect_format(filepath: str) -> str:
     return "unknown"
 
 
-# Exposed API
+# Public Parser API
 def parse_file(filepath: str) -> list[LogEntry]:
     """
     Detect Log Format and parse valid lines from log file.
