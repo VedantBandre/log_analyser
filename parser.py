@@ -70,6 +70,12 @@ _SSH_HEADER = re.compile(
     r'(?P<message>.+)$'
 )
 
+# Matches any valid auth log line (su, cron, sudo, etc.) — used to
+# silently discard non-sshd lines rather than counting them as errors
+_AUTH_LOG_LINE = re.compile(
+    r'^\w{3}\s+\d{1,2}\s+\d{2}:\d{2}:\d{2}\s+\S+\s+\S+\[\d+\]:'
+)
+
 # IP can appear as bare-dotted or "from X.X.X.X"
 _RHOST_PATTERN = re.compile(r'rhost=(\d{1,3}(?:\.\d{1,3}){3})')
 _FROM_PATTERN  = re.compile(r'from\s+(\d{1,3}(?:\.\d{1,3}){3})')
@@ -81,7 +87,8 @@ _EVENT_KEYWORDS = {
     "invalid user":           "INVALID_USER",
     "check pass":             "CHECK_PASS",
     "accepted password":      "AUTH_OK",
-    "accepted publickey":     "CONN_CLOSED",
+    "accepted publickey":     "AUTH_OK",
+    "connection closed":      "CONN_CLOSED",
     "disconnect":             "DISCONNECT",
 }
 
@@ -134,7 +141,7 @@ def _detect_format(filepath: str) -> str:
                 continue
             if _CLF_PATTERN.match(line):
                 return "clf"
-            if _SSH_HEADER.match(line):
+            if _SSH_HEADER.match(line) or _AUTH_LOG_LINE.match(line):
                 return "ssh"
     return "unknown"
 
@@ -150,26 +157,30 @@ def parse_file(filepath: str) -> list[LogEntry]:
         print(f"[parser] WARNING: Could not detect log format for {filepath}")
         return []
     
-    parse_fn = _parse_clf if fmt == "clf" else _parse_ssh
+    parser_fn = _parse_clf if fmt == "clf" else _parse_ssh
     print(f"[parser] detected format: {fmt.upper()} - {filepath}")
     
     entries = []
     skipped = 0
+    ignored = 0
 
-    with open(filepath, 'r') as file:
-        for line in file:
+    with open(filepath, "r") as f:
+        for line in f:
             line = line.strip()
             if not line:
                 continue
-            entry = parse_fn(line)
+            entry = parser_fn(line)
             if entry:
                 entries.append(entry)
-            elif line.strip():
+            elif fmt == "ssh" and _AUTH_LOG_LINE.match(line):
+                ignored += 1  # valid auth log line, just not sshd — discard silently
+            else:
                 skipped += 1
-    
+ 
+    if ignored:
+        print(f"[parser] ignored {ignored} non-sshd line(s) (su, cron, sudo, etc.)")
     if skipped:
         print(f"[parser] skipped {skipped} unparseable line(s)")
-    
+ 
     print(f"[parser] parsed {len(entries)} entries")
     return entries
-

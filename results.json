@@ -1,0 +1,2178 @@
+{
+  "generated_at": "2026-04-27T16:10:47.879381+00:00",
+  "files": [
+    "sample_logs/ssh.log"
+  ],
+  "total_alerts": 17,
+  "alerts": [
+    {
+      "ip": "150.183.249.110",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "80 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 80,
+      "evidence": [
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:43",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:46",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:47",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:48",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:48",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:48",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:49",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:56",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:57",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:58",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:58",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:59",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:01:59",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:02",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:08",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:09",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:10",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:10",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:12",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:12",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:13",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:14",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:14",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:14",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:21",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:21",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:23",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:23",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:24",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:25",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:26",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:27",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:27",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:27",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:33",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:35",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:35",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:36",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:37",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:39",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:39",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:40",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:40",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:46",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:47",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:47",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:49",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:50",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:52",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:52",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:52",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:53",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:57",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:02:58",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:00",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:00",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:03",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:10",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:11",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:12",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:12",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:13",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:16",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:18",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:18",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:18",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "150.183.249.110",
+          "timestamp": "2005-07-10T16:03:18",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "207.243.167.114",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "23 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 23,
+      "evidence": [
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:02:27",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:02:35",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:02:37",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:02:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:02:47",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:02:55",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:02:57",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:07",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:15",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:17",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:26",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:27",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:35",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:37",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:47",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:55",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:03:57",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:04:02",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:04:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:04:07",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "207.243.167.114",
+          "timestamp": "2005-07-26T07:04:12",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "220.117.241.87",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "13 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 13,
+      "evidence": [
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:48",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:48",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:49",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:51",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:51",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:52",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:54",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:54",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:57",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:15:59",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:16:00",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:16:00",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "220.117.241.87",
+          "timestamp": "2005-07-04T19:16:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "218.188.2.4",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "12 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 12,
+      "evidence": [
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:12:34",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:13:19",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.188.2.4",
+          "timestamp": "2005-06-15T12:13:20",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "65.166.159.14",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:06",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:07",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:07",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:07",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:07",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:08",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "65.166.159.14",
+          "timestamp": "2005-06-20T09:20:08",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "209.152.168.249",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:29",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:29",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:29",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:29",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:29",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:30",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:30",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:30",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:30",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "209.152.168.249",
+          "timestamp": "2005-06-23T01:41:32",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "60.30.224.116",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:00",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:00",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:00",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:03",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:04",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:04",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "60.30.224.116",
+          "timestamp": "2005-06-30T19:03:07",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "195.129.24.210",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:42",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:42",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:42",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:43",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:43",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "195.129.24.210",
+          "timestamp": "2005-07-01T10:56:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "211.214.161.141",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:01",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:02",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:02",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:02",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:03",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:03",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:04",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.214.161.141",
+          "timestamp": "2005-07-10T16:33:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "82.77.200.128",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:14",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:15",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:15",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:15",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:15",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:15",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:16",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:17",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:17",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "82.77.200.128",
+          "timestamp": "2005-07-11T03:46:19",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "211.137.205.253",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:16",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:16",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:16",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:19",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:20",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:21",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:21",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:21",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:22",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.137.205.253",
+          "timestamp": "2005-07-11T17:58:23",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "68.143.156.89",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:43",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:44",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "68.143.156.89",
+          "timestamp": "2005-07-12T06:09:45",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "202.181.236.180",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "202.181.236.180",
+          "timestamp": "2005-07-19T07:35:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "211.9.58.217",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "10 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 10,
+      "evidence": [
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:41",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:42",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "211.9.58.217",
+          "timestamp": "2005-07-23T20:04:42",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "218.22.3.51",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "9 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 9,
+      "evidence": [
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:03",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:03",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:04",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:04",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:04",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:04",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "218.22.3.51",
+          "timestamp": "2005-06-23T23:30:05",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "61.53.154.93",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "9 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 9,
+      "evidence": [
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:24",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:24",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:24",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:24",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:25",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:26",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:28",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:29",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "61.53.154.93",
+          "timestamp": "2005-06-28T08:10:30",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    },
+    {
+      "ip": "217.60.212.66",
+      "rule": "Brute Force",
+      "severity": "HIGH",
+      "reason": "6 failed auth attempts in 10 minutes (threshold: 5)",
+      "hits": 6,
+      "evidence": [
+        {
+          "ip": "217.60.212.66",
+          "timestamp": "2005-06-21T08:56:36",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "217.60.212.66",
+          "timestamp": "2005-06-21T08:56:36",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "217.60.212.66",
+          "timestamp": "2005-06-21T08:56:36",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "217.60.212.66",
+          "timestamp": "2005-06-21T08:56:36",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "217.60.212.66",
+          "timestamp": "2005-06-21T08:56:36",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        },
+        {
+          "ip": "217.60.212.66",
+          "timestamp": "2005-06-21T08:56:36",
+          "method": "AUTH_FAIL",
+          "path": "",
+          "status": 0,
+          "source": "ssh"
+        }
+      ]
+    }
+  ]
+}
